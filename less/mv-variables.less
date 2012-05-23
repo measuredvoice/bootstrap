@@ -1,0 +1,107 @@
+// Measured Voice bootstrap Variables.less overrides and additions
+// Variables to customize the look and feel of Bootstrap for Measured Voice
+// -----------------------------------------------------
+
+
+
+// GLOBAL VALUES
+// --------------------------------------------------
+
+
+// Grays
+// -------------------------
+@grayDarker:            #111;     // Customized
+@grayDark:              #333;     // Customized
+@grayLighter:           #e0e0e0;  // Customized
+
+// Accent colors
+// -------------------------
+@blue:                  #00adda; // Customized
+@blueDarker:            #000032; // Customized
+@blueDark:              #003366; // Customized
+@blueLight:           	#98f9fb; // Customized
+@yellow:                #fdf799; // Customized
+
+
+// Links
+// -------------------------
+@linkColor:             @blueDark;
+@linkColorHover:        @blue;
+
+
+// Typography
+// -------------------------
+@sansFontFamily:        "proxima-nova-alt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+@sansFontFamilyAlt:     "atrament-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+@baseFontSize:          16px;
+@baseLineHeight:        20px;
+
+@headingsFontFamily:    @baseFontFamily;
+@headingsColor:         @textColor;
+
+
+// Buttons
+// -------------------------
+@btnPrimaryBackground:              @linkColor;
+@btnPrimaryBackgroundHighlight:     spin(@btnPrimaryBackground, 15%);
+
+@btnInfoBackground:                 @blue;
+@btnInfoBackgroundHighlight:        #00d7e4;
+
+@btnInverseBackground:              @gray;
+@btnInverseBackgroundHighlight:     @grayDarker;
+
+
+// Forms
+// -------------------------
+@inputDisabledBackground:       @grayLighter;
+
+
+// Dropdowns
+// -------------------------
+@dropdownLinkColor:             @grayDark;
+@dropdownLinkBackgroundHover:   @linkColor;
+
+
+// COMPONENT VARIABLES
+// --------------------------------------------------
+
+
+// Input placeholder text color
+// -------------------------
+@placeholderText:         @grayLight;
+
+
+// Hr border color
+// -------------------------
+@hrBorder:                @grayLighter;
+
+
+// Navbar
+// -------------------------
+@navbarHeight:                    95px;
+@navbarBorder:					  @grayLighter;
+@navbarBackground:                @grayLighter;
+@navbarBackgroundHighlight:       @white;
+@navbarBackgroundInfo:       	  transparent url(/assets/images/bg_header.gif) repeat-x 0 0;
+
+@navbarText:                      @grayLight;
+@navbarLinkColor:                 @grayLight;
+@navbarLinkColorHover:            @white;
+@navbarLinkColorActive:           @navbarLinkColorHover;
+@navbarLinkBackgroundHover:       transparent;
+@navbarLinkBackgroundActive:      @navbarBackground;
+
+@navbarSearchBackground:          lighten(@navbarBackground, 25%);
+@navbarSearchBackgroundFocus:     @white;
+@navbarSearchBorder:              darken(@navbarSearchBackground, 30%);
+@navbarSearchPlaceholderColor:    #ccc;
+@navbarBrandColor:                @navbarLinkColor;
+
+
+// Hero unit
+// -------------------------
+@heroUnitBackground:              @grayLighter;
+@heroUnitHeadingColor:            @blueDark;
+@heroUnitLeadColor:               @grayDark;
