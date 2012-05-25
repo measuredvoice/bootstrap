@@ -758,8 +758,8 @@ ul{margin-left:15px;}ul.square{list-style:square;}
 .nav-pills>li{margin-left:10px;}.nav-pills>li.first{margin-left:0;}
 .nav-pills>li >a{padding:6px 20px;color:#333333;background-color:#e0e0e0;font-size:15px;font-weight:bold;line-height:15px;text-decoration:none;}
 .nav-pills>li.active>a,.nav-pills>li >a:hover{background-color:#003366;color:#ffffff;text-decoration:none;}
-.hero-unit{margin:0 0 30px 0;padding:0;background-color:transparent;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;}.hero-unit h1{margin-bottom:25px;font-size:65px;line-height:65px;color:#003366;letter-spacing:auto;font-weight:300;font-family:"atrament-web","Helvetica Neue",Helvetica,Arial,sans-serif;}
-.hero-unit p{margin:0;font-size:20px;line-height:28px;color:#333333;}
+.hero-unit{min-height:340px;margin:0 0 30px 0;padding:0;background-color:transparent;text-align:center;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;}.hero-unit h1{margin-bottom:25px;font-size:65px;line-height:65px;color:#003366;letter-spacing:auto;font-weight:300;font-family:"atrament-web","Helvetica Neue",Helvetica,Arial,sans-serif;}
+.hero-unit p{float:none;margin:0 auto;font-size:20px;line-height:28px;color:#333333;}
 .mv-black{color:#000000;}
 .mv-gray-darker{color:#111111;}
 .mv-gray-dark{color:#333333;}
@@ -845,7 +845,6 @@ footer .mv-contact .mv-bug{height:70px;width:70px;position:absolute;top:-10px;le
 #mv-essay p,#mv-essay li{margin-bottom:20px;font-size:22px;line-height:32px;}
 #mv-essay strong{font-weight:600;}
 #mv-essay .tour-nav{margin:15px 0;padding:10px 0;border-top:1px solid #e0e0e0;border-bottom:1px solid #e0e0e0;}#mv-essay .tour-nav li{margin-bottom:0;}
-.hero-unit{min-height:340px;}
 .mv-info{background-color:#003366;padding:40px 0 50px 0;color:#ffffff;font-weight:600;}.mv-info h2{margin:0 0 15px 0;color:#98f9fb;}
 .mv-info h3{margin:0;color:#ffffff;font-weight:600;line-height:24px;}.mv-info h3 em{color:#98f9fb;font-sizes:18px;font-style:normal;font-weight:bold;text-transform:uppercase;}
 .mv-info h4{color:#fdf799;font-weight:600;line-height:18px;}
