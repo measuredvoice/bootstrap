@@ -1,0 +1,6 @@
+.clearfix{*zoom:1;}.clearfix:before,.clearfix:after{display:table;content:"";}
+.clearfix:after{clear:both;}
+.hide-text{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0;}
+.input-block-level{display:block;width:100%;min-height:28px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;}
+.mv-bug{background-color:#00bede;background-image:-moz-linear-gradient(top, #00adda, #00d7e4);background-image:-ms-linear-gradient(top, #00adda, #00d7e4);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#00adda), to(#00d7e4));background-image:-webkit-linear-gradient(top, #00adda, #00d7e4);background-image:-o-linear-gradient(top, #00adda, #00d7e4);background-image:linear-gradient(top, #00adda, #00d7e4);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00adda', endColorstr='#00d7e4', GradientType=0);border-color:#00d7e4 #00d7e4 #008f98;border-color:rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);*background-color:#00d7e4;filter:progid:DXImageTransform.Microsoft.gradient(enabled = false);}.mv-bug:hover,.mv-bug:active,.mv-bug.active,.mv-bug.disabled,.mv-bug[disabled]{background-color:#00d7e4;*background-color:#00bfcb;}
+.mv-bug:active,.mv-bug.active{background-color:#00a7b1 \9;}
