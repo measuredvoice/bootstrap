@@ -413,11 +413,16 @@ footer {
       font-weight: bold;
       li {
         float: left;
-        margin-right: 15px;
+        margin: 0 15px 10px 0;
+        line-height: @baseLineHeight / 2;
+        &.divide {
+          border-left: 1px solid @gray;
+          padding-left: 15px;
+        }
         a {
           text-decoration: underline;
           &:hover {
-            text-decoration: underline;
+            text-decoration: none;
           }
         }
       }
@@ -532,6 +537,9 @@ footer {
 }
 
 .post {
+  h1 a {
+    text-decoration: none;
+  }
   .actions {
     margin: 25px 0 30px 0;
     padding: 7px 0;
@@ -568,6 +576,9 @@ footer {
 .post-nav li,
 .tour-nav li {
   margin-left: 0;
+  a.back-button:before {
+    content: "\00ab\00a0";
+  }
 }
 
 .sidebar {
@@ -592,9 +603,6 @@ footer {
     }
   }
   .connect {
-    a {
-      color: @black;
-    }
     li {
       margin-bottom: 8px;
     }
@@ -724,9 +732,11 @@ footer {
   }
   a {
     color: @yellow;
-    font-size: 14px;
-    font-weight: bold;
     text-decoration: none;
+    &.more {
+      font-weight: bold;
+      font-size: 14px;
+    }
     &:hover {
       color: @blueDark;
       background-color: @yellow;
@@ -781,7 +791,7 @@ footer {
       font-size: @baseFontSize;
       line-height: @baseLineHeight;
     }
-    a:after {
+    a.more:after {
       content: "\00a0\00bb";
     }
 
